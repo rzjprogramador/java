@@ -16,16 +16,26 @@ public class TiposPrimitivosClasseModerno {
   // logico
   public static Boolean verdadeiroTrue_Ou_Falso_False = true;
 
+  // Print Local
+  public static <AnyType> void Print(AnyType... a) {
+    for(int posicao=0; posicao < a.length; posicao++) {
+      System.out.println(a[posicao]);
+    }
+  }
+
   public static void main(String[] args) {
-    System.out.println("String textoSempreEntreAspasDuplas: " + TiposPrimitivosClasseModerno.textoSempreEntreAspasDuplas);
-    System.out.println("char caractereUnicoEntreAspasSimples: " + TiposPrimitivosClasseModerno.caractereUnicoEntreAspasSimples);
-    System.out.println("Byte byteAte127: " + TiposPrimitivosClasseModerno.byteAte127);
-    System.out.println("Short shortAte32767: " + TiposPrimitivosClasseModerno.shortAte32767);
-    System.out.println("int numeroInteiro: " + TiposPrimitivosClasseModerno.numeroInteiro);
-    System.out.println("Long numeroGiganteLongo: " + TiposPrimitivosClasseModerno.numeroGiganteLongo);
-    System.out.println("Float floatDecimalAntigo: " + TiposPrimitivosClasseModerno.floatDecimalAntigo);
-    System.out.println("Double doubleDecimalIdeal: " + TiposPrimitivosClasseModerno.doubleDecimalIdeal);
-    System.out.println("Boolean verdadeiroTrue_Ou_Falso_False: " + TiposPrimitivosClasseModerno.verdadeiroTrue_Ou_Falso_False);
+    TiposPrimitivosClasseModerno.Print(
+      "String : " + TiposPrimitivosClasseModerno.textoSempreEntreAspasDuplas,
+      "char1 : " + TiposPrimitivosClasseModerno.caractereUnicoEntreAspasSimples,
+      "Byte127 : " + TiposPrimitivosClasseModerno.byteAte127,
+      "Short32767: " + TiposPrimitivosClasseModerno.shortAte32767,
+      "numeroInteiro: " + TiposPrimitivosClasseModerno.numeroInteiro,
+      "Long numeroLongo: " + TiposPrimitivosClasseModerno.numeroGiganteLongo,
+      "Float floatDecimalAntigo"  + TiposPrimitivosClasseModerno.floatDecimalAntigo,
+      "Double doubleDecimalIdeal: " + TiposPrimitivosClasseModerno.doubleDecimalIdeal,
+      "Boolean verdadeiroTrue_Ou_Falso_False: " + TiposPrimitivosClasseModerno.verdadeiroTrue_Ou_Falso_False
+      );
+
   }
 
 }
