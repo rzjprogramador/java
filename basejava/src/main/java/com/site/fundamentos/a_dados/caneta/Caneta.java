@@ -27,13 +27,27 @@ public class Caneta {
   public void tampar() { this.tampada = true; }
   public void destampar() { this.tampada = false; }
 
-  public void statusObjeto() {
-    System.out.println("Modelo: " + this.modelo);
-    System.out.println("Ponta: " + this.ponta);
-    System.out.println("Cor: " + this.cor);
-    System.out.println("Tampada: " + this.tampada);
+  public <AnyType> void Print(AnyType... a) {
+    for(int posicao=0; posicao < a.length; posicao++) {
+      System.out.println(a[posicao]);
+    }
+  }
 
-    System.out.println("Eu tenho um caneta: " + this.getModelo());
+  public void statusObjeto() {
+    this.Print(
+      "Modelo: " + this.modelo,
+      "Ponta: " + this.ponta,
+      "Cor: " + this.cor,
+      "Tampada: " + this.tampada,
+
+      "Eu tenho um caneta: " + this.getModelo(),
+
+      "",
+      "--------------///----------------",
+      ""
+    );
+
+
   }
 
 }
