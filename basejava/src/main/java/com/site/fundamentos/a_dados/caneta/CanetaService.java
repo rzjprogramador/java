@@ -10,7 +10,7 @@ public class CanetaService {
     caneta1.destampar();
     caneta1.statusObjeto();
 
-    caneta2.destampar();
+    caneta2.tampar();
     caneta2.statusObjeto();
 
   }
