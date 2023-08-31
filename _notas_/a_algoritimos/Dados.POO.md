@@ -1,7 +1,15 @@
 # Modelagem Dados
 
 # DADO_DEFINICOES
-1. cicloParaFormarDado: em POO para formar e filtrar os dados eles cumprem um cicloComMetodosEspeciais :
+1. como_definir_que_sera_um_dado:
+  1. atraves_de_rascunho_de_requerimento: Quero fazer uma soma entre 2 numeros >> então teras que implementar o metodo soma(), e o que quér com o verbo será as variaveis: 2 numeros represente como numero1, numero2, e retorne uma configuracao capaz de sempre fazer este objetivoPedido: a soma entre 2 numeros.
+  2. caracteristicas_props:
+    #TEM : <texto | numero>
+    #PODE_ESTAR : <logico > [
+    #ELE_É:  <enum>
+    #RESULTADO_COMPUTADO_ELE_TEM: <texto | numero>
+
+2. cicloParaFormarDado: em POO para formar e filtrar os dados eles cumprem um cicloComMetodosEspeciais :
   1.cicloComMetodosEspeciais:
     1. [
       {paramsViaConstrutor : dadoVemDinamicoDeFora},
@@ -9,12 +17,9 @@
       {setter : regraValidaPreenchimento, e daí vai para a propAtributo: dadoProtegidoeValidado}
     ]
 
-# artefato : valor : informacao
-1. declaracao
-  1. declaracao: "declarar é anunciar que agora existe que nasceu o artefato.",
-  2. assinatura: a assinatura é um contrato tem que cumprir conforme declarou :: da mesma forma que se declara um novo artefato se declara para parametros, <DECLARACOES NÃO MUDAM>. ex: preciso declarar um parametroArray, parametro é uma variavel, então declaro o parametroArray da mesma forma que estivesse declarando-o normalmente fora de parametros. declaracoes nao mudam e parametros são variaveis que precisam ser declaradas normalmente. obs: podemos declarar e não preencher o valor ou declarar e já preencher o valor conforme a necessidade tem linguagem ts js que precisa em classes inserir ! afirmação que pode confiar que o artefato deve existir de inicio sem preenchimento.
 
-  3. uso_artefato: sempre quando chama um artefato, Pergunte e expresse QUEM É ESTE?, computacional apartir do seu valor, mando fazer alguma #Acao.
+# uso_artefato
+  1. uso_artefato: sempre quando chama um artefato, Pergunte e expresse QUEM É ESTE?, computacional apartir do seu valor, mando fazer alguma #Acao.
 
 
 # VISIBILIDADES
@@ -57,4 +62,31 @@ informacao_Obrigatoria: "em #poo vc pede o valorObrigatorio para se cadastrar na
   2. parametro:
     1. conceito: parametro é um futuro valor um contrato substituidor ... uma variavel que será reescrita conforme quem vai usar obs: tem que ser do mesmo tipo do contrato a inserção de quem vai usar.
     2. aplicabilidade: "#parametros #valor, quando precisamos de params é quando o valor vai vir pelo cliente, quando o valor vai ser pego na memória já existe gravado atribuído não precisos pega-lo por param"
+
+# ARTEFATOS
+1. valor : [ literalMarretado, dinamicoViaParams, dinamicoPorPosicao, capturado,  ]
+2. artefato : [ preenchidoPRONTO, referenciaGeradora_DE_PRONTO ]
+3. tipo : [ tiposPrimitivos, tiposPrimitivosObjeto, tiposPersonalizados_GeradoPorClasses ]
+
+# LIÇÕES ESTRUTURA MODELO DE DADOS
+
+- objetivo: gerar instancias de objeto que tenha características e comportamentos, usar Estrutura_Dado : classe
+
+- declaracao: cada artefato para estar no objeto final tem que ser declarado, declaracao é igual seja onde o artefato estiver sendo definido seja em posição de [ variavel, atributo, método, ], o que pode mudar são adições de elementos chave : [ visibilidade, regra: [mutavel, constante, construcao, staticos: constante_Imutavel_PoloUnico,  ]] #guardaNoCoracao.
+
+- comportamentos_Metodos: se  é algo que precisas fazer já é um verbo e sendo um verbo é um metodo.
+
+- visibilidade: [ + público, # privado, - protegido ]
+
+- o_this: dentro da classe representa a instancia criada fora da classe. ex: dentro da classe é this.campo -- o mesmo fora é instancia.campo
+
+- o tipo de retorno dos métodos é o mesmo das props.
+
+- se um metodo não devolve, seu retorno é vazio, setters não devolvem que faz o trabalho de devolver são os getters.
+
+- setters e getters são para proteger as propsTem de inserções indesejadas.
+
+- getter retorna a propTem
+
+- setter recebe o parâmetro e atribui a propTem, devolveVazio.
 

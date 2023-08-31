@@ -19,3 +19,11 @@
   1. em_java: tipoGeneric: <AnyType> ,
   2. tipando parametro: public <AnyType> void metodo( AnyType parametro )
 
+# BOLEANO
+1. conceito: representa verdadeiroSim ou falsoNao
+
+1. representacoes:
+  1. sim: sim pode ser representado com true.
+  1. nao: nao pode ser representado com false.
+
+
