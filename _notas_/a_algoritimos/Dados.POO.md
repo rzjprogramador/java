@@ -3,6 +3,7 @@
 # DADO_DEFINICOES
 1. como_definir_que_sera_um_dado:
   1. atraves_de_rascunho_de_requerimento: Quero fazer uma soma entre 2 numeros >> então teras que implementar o metodo soma(), e o que quér com o verbo será as variaveis: 2 numeros represente como numero1, numero2, e retorne uma configuracao capaz de sempre fazer este objetivoPedido: a soma entre 2 numeros.
+
   2. caracteristicas_props:
     #TEM : <texto | numero>
     #PODE_ESTAR : <logico > [
