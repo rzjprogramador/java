@@ -1,4 +1,13 @@
+# Modelagem Dados
 
+# DADO_DEFINICOES
+1. cicloParaFormarDado: em POO para formar e filtrar os dados eles cumprem um cicloComMetodosEspeciais :
+  1.cicloComMetodosEspeciais:
+    1. [
+      {paramsViaConstrutor : dadoVemDinamicoDeFora},
+      {getter: regraParaVer},
+      {setter : regraValidaPreenchimento, e daí vai para a propAtributo: dadoProtegidoeValidado}
+    ]
 
 # artefato : valor : informacao
 1. declaracao
@@ -7,9 +16,35 @@
 
   3. uso_artefato: sempre quando chama um artefato, Pergunte e expresse QUEM É ESTE?, computacional apartir do seu valor, mando fazer alguma #Acao.
 
+
+# VISIBILIDADES
+1. visibilidadeMetodosEspeciais:
+  1. paraUso_Cliente: público
+  2. paraUso_Sistema: [privado(quando a mesma classe vai implementar), ou protegido(quando outras classes vão implementar)]
+
+# DADOS_UTILIZADOR
+1. argumento:
+  1. conceito: "Éo preenchimento com valor ou indicacao que resulta em valor feita pelo utilizador Client ou Codigo.", narracao: PREENCHO DAR VALOR AO QUE PEDI, ex: Preencho a string, preencho o objeto, etc...
+
+# ACESSOS
+1. modificadores_de_acesso_emClasses:
+  1. #modificadorDeAcesso protected /protegido da acesso direto sem ter e set as props do Pai somente para as classes que herdam.
+
+# CONSTRUCAO DE VALOR
+1. construcao_de_valor_dentro_de_bloco: é uma #sequenciaLogica, vai #contruindo #valor de acordo com o #tipo do artefato que se formou seu valor que esta trabalhando no momento e encaixando as peças de forma #logica que faz #sentido.
+
+
 # INFORMACAO_MUDAVEL_DINAMICO
 1. valor_dinamico_em_configurada :
   1. conceito:  o #valor passivel de mudança use como #parametro, se uma única COISA vai mudar use #Parâmetro no lugar para a escolha no uso  ser #valorDinamico ,  se essa mudança for type use #paramGeneric
+
+1. prepararParaReceberDiversos_DoMesmoTipo_ViaParams:
+  1. em_Java:
+    * VarArgs: VarArgs é um sintaxSugar com 3 pontos APÓS a declaracao do tipo, para nao precisar declarar : tipo[] , faz então tipo...3pontos #novaReferenciaDoArray
+    * declaracao: o (tipo... variavelQueGuardara_e_SeraReferencia)
+    * vantagem: varArgs sintax sugapara receber array em metodo e na chamada poder passar objReferencia ou items soltos.ex: (1, 2, 3, 4).
+    * obs: o parametro varArgs sempre tera que ser o primeiro, ele nao pode vir em outra posicao.
+
 
 # INFORMACAO OBRIGATORIA
 informacao_Obrigatoria: "em #poo vc pede o valorObrigatorio para se cadastrar na criaçao no #construtor, pergunte se: _ Quando criar está Entidade tenho que ter está OUTRA? se sim ela é obrigatória, construa na criaçao se não não use na criaçao. #relacionamento, #associacao",
@@ -23,33 +58,3 @@ informacao_Obrigatoria: "em #poo vc pede o valorObrigatorio para se cadastrar na
     1. conceito: parametro é um futuro valor um contrato substituidor ... uma variavel que será reescrita conforme quem vai usar obs: tem que ser do mesmo tipo do contrato a inserção de quem vai usar.
     2. aplicabilidade: "#parametros #valor, quando precisamos de params é quando o valor vai vir pelo cliente, quando o valor vai ser pego na memória já existe gravado atribuído não precisos pega-lo por param"
 
-# INICIALIZACAO_DAR_VALOR
-1. significados: inicializacao = [preencher, dar valor, carregarPrimeiroValor, ]
-2. possiveis: [ em_campos, com sobrecarga em construtores em metodos]
-
-
-# LINK PARA VALOR
-link_para_valor: possiveis: [ valor, referencia ]
-  1. valor : resumo: ValorFinal PuroPrimitivo, conceito: é o valor final o literal puro você já tem já acesso ao valor puro.
-  1. referencia: resumo: É um Objeto, conceito: é um recipiente container um objeto que contém membros campos e desencadeaveis do tipo da sua ClassePaiConstrutora e você só acessa algo ou o próprio valor via estes membros.
-
-
-# DADOS_UTILIZADOR
-1. argumento:
-  1. conceito: "Éo preenchimento com valor ou indicacao que resulta em valor feita pelo utilizador Client ou Codigo.", narracao: PREENCHO DAR VALOR AO QUE PEDI, ex: Preencho a string, preencho o objeto, etc...
-
-
-# CONFIGURADORAS_COMPORTAMENTO
-1. funcao_metodo:
-    1. funcao: narracao: QUANDO FAZER NomeDaFuncao no Imperativo, significado: funcao/metodo é um contrato quem executar tem que cumprir o que foi assinalado e terá o que devolve este contrato.
-
-1. metodoProptotype:
-    1. metodoSetter: "metodo #setter em classe não precisa retornar valor somente setar e retornar return #vazio.",
-
-
-# ACESSOS
-1. modificadores_de_acesso_emClasses:
-  1. #modificadorDeAcesso protected /protegido da acesso direto sem ter e set as props do Pai somente para as classes que herdam.
-
-# CONSTRUCAO DE VALOR
-1. construcao_de_valor_dentro_de_bloco: é uma #sequenciaLogica, vai #contruindo #valor de acordo com o #tipo do artefato que se formou seu valor que esta trabalhando no momento e encaixando as peças de forma #logica que faz #sentido.

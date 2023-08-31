@@ -1,3 +1,4 @@
+# Modelagem Conceito Geral
 
 # MODELAGEM
 1. conceito: #modelagem sempre comece modelando entidade que não tem #associacao com outra, assim quando for para as que usam outras essas já estariam disponíveis.
@@ -15,10 +16,3 @@ definir_niveis_Cargos:
     1. nível alto: 1°**PESSOA**,
     2. 2° Dono-3° Gerente
     3. -4° Funcionario 5°-fulano
-
-# MODELADORAS
-1. classe_classificadora :
-  2. representaoes
-    1. representa_os_futuros_objetos_THIS: o #this é o proprio objeto em que ele esta inserido, por isto com ele somente dentro de metodo temos acesso as props do objeto...vc pode conferir dentro do metodo dar um console.log(this) vai retornar o objeto.
-
-    2. representa_a_ClassePAI: props e metodos staticos.
