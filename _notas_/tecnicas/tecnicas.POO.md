@@ -17,7 +17,8 @@ significados_partes_do_objeto:
   ]
 
   obs: tudo que for mudavel disponibilizar em métodos get e set
-  abstracao: é abstrato o que você não pode pegar é derivado de um Criador, ex: modelo, cantor, aula, #TODO deixar mais claro uso de abstracao.
+
+  
 
   staticos é o mesmo que constante #poloUnico mas só demarca acesso a [ clas, atributo, método ]
 

@@ -1,5 +1,9 @@
 # Modelagem Conceito Geral
 
+# contratos:
+benefícios: desaclopa o código, utilza princípios Solid,  inversões de dependências pois depem de contratos.
+conceitos: não tem valores, somente o formato com identificações e tipos do que é para implementarem quem quiser usar.
+
 # MODELAGEM
 1. conceito: #modelagem sempre comece modelando entidade que não tem #associacao com outra, assim quando for para as que usam outras essas já estariam disponíveis.
 
@@ -30,4 +34,15 @@ definir_niveis_Cargos:
   1. actionsManagers : ( comportamentos by Ações Repo ),
 ]
 
+# modelagem_classe_abstrata
+1. deve fazer da classe abstrata quando ela não é pra existir é só o modelo que origina as concretas se no negocio em questão o sistema que vai criar os derivados, ex: Produto é abstrata dita regras e valores iniciais para as concretas que a implemenatrá ex: Derivados de Produto: [ class Computador, class Mesa, class Teclado ],
+
+# interface
+1. permite_declarar:
+  atributo:  é permitido declarar atributo em interface, modificadorPadrao: são constantes : public static  final.
+  metodo: sim, modificadorPadrao: public para permitir @Sobreescrita.
+  metodoEstatico: sim, modificadorPadrao: public para permitir @Sobreescrita.
+
+métodos:
+  quandoMetodoEstatico:quando no bloco não utilizar nenhuma variável this da classe.
 

@@ -12,8 +12,18 @@
     1. obrigatorio_aspasSimples_para_Char: true.
     1. permite_virgula_na_ultima_propriedade_de_objeto: false.
 
-  3. visibilidade local TipoRetorno nomeArtefato valor
-    1. declaracao_variavel:
-      1. ```visibilidade tipoRetorno nome >>> ex: public string texto;´´´
-    2. declaracao_metodo:
-      1. ```visibilidade local tipoRetorno nome valor_DelimitadorVariaveis_BlocoManipulacaoVariaveis >>> ex: public static void main () {}´´´
+  1. modificadores
+    1. acesso : público, privado, protegido
+      1. default : já é implicitamente público , serve para métodos padrão em interfaces, estes métodos default podem ser implementandos na interface mas não é obrigatório nas classes que seguem este contrato., Aplicabilidade não quebrar quem já cumpre o contrato e assim não precisa seguir estes métodos só quem realmente precisa.
+      2. publico:é o livro ja vem por padrao na maioria.
+      3. privado: só dentro da propria classe pode ter acesso.
+      3. protegido: só dentro da propria classe e das que há extendem pode ter acesso.
+
+
+    2. local : poloUnicoFixoEstatico, constante, inferência,
+
+    3. tipoDoRetorno: primitivos, personalizados de modeladores: [ deClasse, deInterface, deStruct]
+
+    4. nome identificador
+
+    5. valor: [ literalDefaultMarretado, dinamicoParams, computadoCombinacaoDeOutrosCamos, funcionalFiltrado_GettersSetters, comportamentoADefinir_FuncaoAnonima, ]
