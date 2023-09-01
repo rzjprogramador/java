@@ -1,7 +1,7 @@
 # Arquiteturas : Estrutura de Diretorios
 
 arquiteturas: [
- criacional:  Model_Service_Controller,
+ mvc:  Model + Service + Controller + Test,
 
 ]
 
