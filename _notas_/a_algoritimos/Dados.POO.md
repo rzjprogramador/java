@@ -24,9 +24,11 @@
 
 
 # VISIBILIDADES
-1. visibilidadeMetodosEspeciais:
-  1. paraUso_Cliente: público
-  2. paraUso_Sistema: [privado(quando a mesma classe vai implementar), ou protegido(quando outras classes vão implementar)]
+1. visibilidades:
+  1. possiveis: [ + público, # privado, - protegido ]
+  2. paraUso_Cliente: público
+  3. paraUso_Sistema: [privado(quando a mesma classe vai implementar), ou protegido(quando outras classes vão implementar)]
+
 
 # DADOS_UTILIZADOR
 1. argumento:
@@ -77,17 +79,7 @@ informacao_Obrigatoria: "em #poo vc pede o valorObrigatorio para se cadastrar na
 
 - comportamentos_Metodos: se  é algo que precisas fazer já é um verbo e sendo um verbo é um metodo.
 
-- visibilidade: [ + público, # privado, - protegido ]
-
 - o_this: dentro da classe representa a instancia criada fora da classe. ex: dentro da classe é this.campo -- o mesmo fora é instancia.campo
 
-- o tipo de retorno dos métodos é o mesmo das props.
 
-- se um metodo não devolve, seu retorno é vazio, setters não devolvem que faz o trabalho de devolver são os getters.
-
-- setters e getters são para proteger as propsTem de inserções indesejadas.
-
-- getter retorna a propTem
-
-- setter recebe o parâmetro e atribui a propTem, devolveVazio.
 

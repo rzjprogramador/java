@@ -1,6 +1,4 @@
----
-marp: true
----
+# PREVENCOES ERROS EXCECCOES
 
 # PREVINIR ERROS CLIENT
 
