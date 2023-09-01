@@ -5,6 +5,8 @@
 
 * referencia: ["atribuição", "TAMBEM_SOU", "link para mesmo valor que está no mesmo espaço da memoria agora que esta referenciando tambem é este mesmo valor.", ],
 
+atribuicao: [ "gravar valor em espaço na memoria que voce nomeou como variavel", "armazenar em variavel", "preenchimento de valor no presente com literal fixo ou no futuro com funcoes dinamicamente", ]
+
 
 1. sobrecarga:
   1. conceito: é recriar um artefato com o MESMO CONTRATO NOME E ASSINATURA e no primeiroOriginal chamar onovo com suas diferenças,

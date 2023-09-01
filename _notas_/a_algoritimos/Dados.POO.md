@@ -30,9 +30,13 @@
   3. paraUso_Sistema: [privado(quando a mesma classe vai implementar), ou protegido(quando outras classes vão implementar)]
 
 
-# DADOS_UTILIZADOR
-1. argumento:
-  1. conceito: "Éo preenchimento com valor ou indicacao que resulta em valor feita pelo utilizador Client ou Codigo.", narracao: PREENCHO DAR VALOR AO QUE PEDI, ex: Preencho a string, preencho o objeto, etc...
+# REPRESENTACOES
+1. dadoFixo : "literal magico"
+
+1. dadoMutavel : "vem de atribuições de funções e metodos que recebem parametros os params que deixam a configuradora dinamica podendo mudar conforme quem precisa usar.",
+
+1. dadoArgumento: É o preenchimento com valor ou indicacao que resulta em valor feita pelo utilizador Client ou Codigo.", narracao: PREENCHO DAR VALOR AO QUE PEDI, ex: Preencho a string, preencho o objeto, etc...
+
 
 # ACESSOS
 1. modificadores_de_acesso_emClasses:
@@ -81,5 +85,8 @@ informacao_Obrigatoria: "em #poo vc pede o valorObrigatorio para se cadastrar na
 
 - o_this: dentro da classe representa a instancia criada fora da classe. ex: dentro da classe é this.campo -- o mesmo fora é instancia.campo
 
+
+# computaveis:
+1. conceito_em_js: camposComputaveis podem ser computados via Args este é o #melhorDosMundos porque da pra atribuir await/async OU via this.campo  destantagem: só não dá pra atribuir await/async.",
 
 

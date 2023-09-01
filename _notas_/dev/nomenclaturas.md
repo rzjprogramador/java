@@ -7,6 +7,16 @@
 
   1. principios: para const, ler, objeto : SUBSTANTIVO, use verbo somente no início e termine com SUBSTANTIVO, evite terminar com verbo, para array : nomeie no plural. , Se é função nomeie como VERBO,  se devolve um booleano use TEM, É, ESTÁ afirmações,  , tutorial Roger https://www.facebook.com/100029397191389/posts/pfbid0KQWNR8W9XWwyYTJsQEyDa3hdND6htf8JkJAxnXizheBYKdJwBKhBhH2QNWW1XLDtl/?app=fbl",
 
+    1. substantivo: sao que NOMEIAM coisas , o nome que definiu para algo é um substantivo. Tutorial : https://youtu.be/BSGIAhRJGxw",
+
+## tops_nomes [
+set : configurar, definir,
+maker : criador, fabricante, polo único de um criador.
+maker : fazer, inventar, criar.
+system : sistema,
+transform,
+pipe = multRules multRulesArgs, multRulesModel, dataControl,
+]
 
 ## TOP ESTILOS
 meuArtefato  ,by: [  ],

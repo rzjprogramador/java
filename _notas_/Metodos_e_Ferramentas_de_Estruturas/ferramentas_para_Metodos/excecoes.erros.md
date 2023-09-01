@@ -7,5 +7,7 @@
   resultado: assim o programa não quebra em excessão.
   exemplo: ```if(num1 == 0 || num2 == 0) { return 0; }```
 
+
+
 ---
 
