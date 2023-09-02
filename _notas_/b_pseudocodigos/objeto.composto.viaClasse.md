@@ -1,4 +1,4 @@
-# Estrutura_Dado : composto classe
+# Objeto Composto via Classe
 
 classe ModeloDadosCompostos
   // *caracteristicas_props*
