@@ -59,13 +59,13 @@
                 <mxCell id="19" value="cicloDoDado:&lt;br&gt;1- entrada_Recebedor_&lt;br&gt;viaParams_Metodo_Construtor&lt;br&gt;&lt;br&gt;2 - analizador_MetodosAcessores&lt;br&gt;&lt;br&gt;3- blocoConstrutorIntermediador: recebe a entradaParams e envia para gravação na memoria&lt;br&gt;&lt;br&gt;4-&amp;nbsp; declara o dado e grava o seu valor que receber em memoria" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="640" y="41.5" width="190" height="198.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="Ciclo_Dado_Via_Classe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=28;" vertex="1" parent="1">
+                <mxCell id="20" value="Ciclo_Dado_Via_Classe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=28;" parent="1" vertex="1">
                     <mxGeometry x="80" y="2" width="530" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="blocoConstrutor_Intermeddiador: recebe a entradaParams &amp;gt; envia para o analizador - e o resultado grava na memoria" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="21" value="Intermediador_BlocoConstrutor: recebe a entradaParams &amp;gt; envia para o analizador - e o resultado grava na memoria" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="265" y="230" width="315" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=none;html=1;fontSize=28;" edge="1" parent="1" source="22">
+                <mxCell id="23" style="edgeStyle=none;html=1;fontSize=28;" parent="1" source="22" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="70" y="130" as="targetPoint"/>
                         <Array as="points">
@@ -73,13 +73,13 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" edge="1" parent="1" source="22" target="21">
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" parent="1" source="22" target="21" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="3" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="22" value="3" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="180" y="225" width="50" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="dado_RESULTADO_COMPUTADO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="25" value="dado_RESULTADO_COMPUTADO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
                     <mxGeometry x="320" y="125.75" width="210" height="30" as="geometry"/>
                 </mxCell>
             </root>
