@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="npN7jeriWNPPiQJZ0RDg" name="via_Classe">
+        <mxGraphModel dx="830" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="450" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="classe &lt;br&gt;definicao campos do objeto" style="text;html=1;align=left;verticalAlign=top;rounded=0;strokeColor=default;strokeWidth=2;whiteSpace=wrap;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="560" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="memoria" style="text;html=1;align=left;verticalAlign=top;rounded=0;strokeColor=default;strokeWidth=2;whiteSpace=wrap;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="80" width="400" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="entrada_Recebedor_viaParams_Metodo_Construtor&amp;nbsp;&lt;br&gt;recebe o dado via params" style="text;html=1;align=left;verticalAlign=top;rounded=0;strokeColor=default;strokeWidth=2;whiteSpace=wrap;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="190" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="comportamentos: acoes que o objeto PODE_FAZER (Tanto para configurar seus proprios campos com analizadores(), quanto para ele pŕoprio ter acoes fora de si, )" style="text;html=1;align=left;verticalAlign=top;rounded=0;strokeColor=default;strokeWidth=2;whiteSpace=wrap;spacingLeft=8;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="278" width="460" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;" parent="1" source="7" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="185" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;" parent="1" source="9" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="2" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="320" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;" parent="1" source="11" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="3" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="90" width="50" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="dado_PODE_TER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="110" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="dado_TEM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="173" y="110" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="dado_PODE_TER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="110" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;text-align: left;&quot;&gt;analizador_metodosAcessores:&lt;/span&gt;&lt;br style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;fazem o meio campo para receber do recebedor_Metodo_Construtor e gravar na memoria&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="347" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ACAO_1&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="347" width="50" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ACAO_2&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="348" width="50" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="cicloDoDado:&lt;br&gt;1- entrada_Recebedor_&lt;br&gt;viaParams_Metodo_Construtor&lt;br&gt;&lt;br&gt;2 - analizador_MetodosAcessores&lt;br&gt;&lt;br&gt;3- grava onde o dado foi declarado em memoria" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;strokeColor=default;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="41.5" width="190" height="137" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Ciclo_Dado_Via_Classe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=28;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="2" width="530" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
