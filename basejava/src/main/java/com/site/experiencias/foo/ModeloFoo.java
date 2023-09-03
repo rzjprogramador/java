@@ -1,4 +1,4 @@
-package com.site.tester_entitys.foo;
+package com.site.experiencias.foo;
 
 public class ModeloFoo {
   public static void main(String[] args) {

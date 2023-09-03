@@ -1,4 +1,4 @@
-package com.site.tester_entitys.bar;
+package com.site.experiencias.bar;
 
 public class ModelBar {
   public static void main(String[] args) {

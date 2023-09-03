@@ -1,6 +1,6 @@
-package com.site.fundamentos.c_contratos_interfaces;
+package com.site.experiencias.controle_remoto;
 
-import com.site.fundamentos.c_contratos_interfaces.IControlador;
+import com.site.experiencias.controle_remoto.IControlador;
 
 public class ControleRemoto implements IControlador {
   private Boolean ligado;
@@ -13,17 +13,19 @@ public class ControleRemoto implements IControlador {
     this.tocando = false;
   }
 
-  public void setLigar(int v) { this.ligado = true; }
-
+  public void setLigar(int v) {
+    this.volume = 50;
+    this.ligado = true;
+  }
 
     @Override
     public void ligar() {
-        // TODO
+        this.ligado = true;
     }
 
     @Override
     public void desligar() {
-        // TODO
+        this.ligado = false;
     }
 
     @Override
