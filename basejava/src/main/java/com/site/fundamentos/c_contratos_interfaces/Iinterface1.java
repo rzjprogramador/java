@@ -7,7 +7,7 @@ interface Interface1 {
   void metodo2();
 
   default void metodoDefaultNaoObrigatorio1() {
-    System.out.println("Metodo default não é obrigatorio implementar em quem implementa a interface, Aqui na sua assinatura SIM tem que implementar, e ele estará disponivel no objeto final a classe que implements implementando @sobreescrevendo ou não.");
+    System.out.println("metodo_default: não é obrigatorio implementar em quem implementa a interface, Aqui na sua assinatura SIM tem que implementar, e ele estará disponivel no objeto final a classe que implements implementando @sobreescrevendo ou não.");
   }
   default void metodoDefaultNaoObrigatorio2() {
     System.out.println("Metodo default 2");
