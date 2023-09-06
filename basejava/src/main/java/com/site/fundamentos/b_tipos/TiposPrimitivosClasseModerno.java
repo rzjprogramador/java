@@ -13,6 +13,9 @@ public class TiposPrimitivosClasseModerno {
   public static Double doubleDecimalIdeal = 20.20D;
   public static Float floatDecimalAntigo = (float) 10.11;
 
+  // objects
+  // public static AnyType anyLivreQualquerTipo = "any valor";
+
   // logico
   public static Boolean verdadeiroTrue_Ou_Falso_False = true;
 

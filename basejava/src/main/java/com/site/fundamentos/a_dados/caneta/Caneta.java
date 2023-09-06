@@ -6,7 +6,6 @@ public class Caneta {
   private String cor;
   private Boolean tampada;
 
-  // metodoConstrutor obs: construtor é só public NomeDaClasse
   public Caneta(String m, Double p, String c) {
     this.tampar();
     this.setCor(c);
