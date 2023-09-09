@@ -1,9 +1,8 @@
-package site.services.um;
+package site.servicos.um;
 
 import java.io.IOException;
 
-import site.contracts.um.UmTypeArgs;
-import site.value_objects.numero.NumeroMenorQueCinco;
+import externals.value_objects.numero.NumeroMenorQueCinco;
 
 public class UmModel {
 
