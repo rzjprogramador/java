@@ -1,6 +1,0 @@
-{
-  "java.project.sourcePaths": [
-    "basejava/src/"
-  ],
-  "java.debug.settings.onBuildFailureProceed": true
-}
