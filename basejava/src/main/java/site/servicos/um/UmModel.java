@@ -14,6 +14,14 @@ public class UmModel {
     this.args.numero = this.setNumero(n);
     this.args.logico = this.setLogico(l);
     this.args.numeroMaiorQue5 = NumeroMenorQueCinco.execute(ns);
+
+    System.out.println("------ Status - NO CONSTRUTOR DO MODELO - SHOW DE CONSOLES->> AO CONSTRUIR ------");
+    System.out.println("texto: " + this.args.texto);
+    System.out.println("numero: " + this.args.numero);
+    System.out.println("logico: " + this.args.logico);
+    System.out.println("numeroMaiorQue5: " + this.args.numeroMaiorQue5);
+    System.out.println("---------- ### ----------");
+
   }
 
   public String setTexto(String t) {
@@ -39,4 +47,6 @@ public class UmModel {
     System.out.println("numeroMaiorQue5: " + this.args.numeroMaiorQue5);
     System.out.println("---------- ### ----------");
   }
+
+
 }

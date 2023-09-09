@@ -10,6 +10,15 @@ public class HttpResponse<T> {
   }
 
   @SuppressWarnings("unchecked")
+  public static <AnyType> HttpResponse<AnyType> ok(int s, AnyType d) {
+    s = 200;
+    HttpResponse<AnyType> instance = new HttpResponse(s, d);
+    System.out.println(s);
+    System.out.println(d);
+    return instance;
+  }
+
+  @SuppressWarnings("unchecked")
   public static HttpResponse<Exception> fail(int s, String d) {
     s = 400;
     HttpResponse<Exception> instance = new HttpResponse(s, d);
