@@ -1,1 +1,7 @@
-com/site/Main.class
+externals/value_objects/numero/NumeroMenorQueCinco.class
+helpers/HttpResponse.class
+site/io/recursos/UmController.class
+site/servicos/um/UmModel.class
+site/servicos/um/UmTypeArgs.class
+site/io/Main.class
+site/servicos/um/UmService.class

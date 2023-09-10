@@ -1,1 +1,7 @@
-/home/rzj/..gitAll/java/basejava/src/main/java/com/site/Main.java
+/home/rzj/_git_rzj/_base_linguagens_/java/basejava/src/main/java/site/servicos/um/UmModel.java
+/home/rzj/_git_rzj/_base_linguagens_/java/basejava/src/main/java/site/io/recursos/UmController.java
+/home/rzj/_git_rzj/_base_linguagens_/java/basejava/src/main/java/site/servicos/um/UmService.java
+/home/rzj/_git_rzj/_base_linguagens_/java/basejava/src/main/java/helpers/HttpResponse.java
+/home/rzj/_git_rzj/_base_linguagens_/java/basejava/src/main/java/site/servicos/um/UmTypeArgs.java
+/home/rzj/_git_rzj/_base_linguagens_/java/basejava/src/main/java/externals/value_objects/numero/NumeroMenorQueCinco.java
+/home/rzj/_git_rzj/_base_linguagens_/java/basejava/src/main/java/site/io/Main.java

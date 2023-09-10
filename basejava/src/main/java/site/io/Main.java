@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Hello  ESTAMOS NA << Main >> do projeto");
         System.out.println("------------------------");
 
-        // Controller das Entidades
+        // Recursos : Controller das Entidades
         UmController.perform();
     }
 }
